@@ -29,6 +29,13 @@ from bheem_hr.api.v1.routes import (
     hr_dashboard,
     hr_action_item
 )
+from fastapi import FastAPI
+
+app = FastAPI()
+
+@app.get("/health")
+def health():
+    return {"status": "ok"}
 
 app = FastAPI(title="HR Module Standalone")
 
