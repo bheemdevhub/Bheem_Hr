@@ -36,3 +36,4 @@ class BaseERPModule(ABC):
                 "status": "healthy"
             }
 
+

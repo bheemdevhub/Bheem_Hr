@@ -126,3 +126,4 @@ async def delete_report_log(
     await service.delete_report_log(log_id)
     return {"detail": "Deleted"}
 
+

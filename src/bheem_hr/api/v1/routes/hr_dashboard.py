@@ -52,3 +52,4 @@ async def get_hr_notifications(db: AsyncSession = Depends(get_db)):
     service = HRDashboardService(db)
     return await service.get_hr_notifications()
 
+

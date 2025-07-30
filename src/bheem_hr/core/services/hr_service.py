@@ -4245,3 +4245,4 @@ class HRService:
         await self.db.delete(checklist)
         await self.db.commit()
         return None
+

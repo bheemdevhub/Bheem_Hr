@@ -37,3 +37,4 @@ class DailyActivityPaginatedResponse(BaseModel):
     size: int
     pages: int
 
+

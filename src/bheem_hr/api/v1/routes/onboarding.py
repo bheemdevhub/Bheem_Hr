@@ -106,3 +106,4 @@ async def delete_onboarding_checklist(
             detail=f"Error deleting onboarding checklist: {str(e)}"
         )
 
+

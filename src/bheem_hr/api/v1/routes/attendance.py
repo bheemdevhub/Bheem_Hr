@@ -253,3 +253,4 @@ async def clock_out(
     service = HRService(db)
     return await service.clock_out(employee_id)
 
+

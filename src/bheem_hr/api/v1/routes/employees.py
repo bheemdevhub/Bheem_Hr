@@ -196,3 +196,4 @@ async def terminate_employee(
             detail=f"Error terminating employee: {str(e)}"
         )
 
+

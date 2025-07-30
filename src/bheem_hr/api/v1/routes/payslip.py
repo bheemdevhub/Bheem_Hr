@@ -147,3 +147,4 @@ async def delete_payslip(
     await service.delete_payslip(payslip_id)
     return {"detail": "Deleted"}
 
+

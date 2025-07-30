@@ -110,3 +110,4 @@ async def delete_salary_component(
     await service.delete_salary_component(component_id, current_user_id=current_user_id, company_id=company_id)
     return {"detail": "Deleted"}
 
+

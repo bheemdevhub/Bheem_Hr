@@ -21,3 +21,4 @@ class DailyActivity(Base, TimestampMixin, SoftDeleteMixin, AuditMixin):
     # Relationship
     employee = relationship("Employee", backref="daily_activities")
 
+

@@ -436,3 +436,4 @@ async def get_lookups_by_type(
             detail=f"Error retrieving lookups by type: {str(e)}"
         )
 
+

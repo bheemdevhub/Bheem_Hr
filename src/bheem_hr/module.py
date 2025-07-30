@@ -3,7 +3,7 @@ from typing import List
 import logging
 
 from .core.base_module import BaseERPModule
-from bheem_hr.api.v1.routes import (
+from .api.v1.routes import (
     employees,
     departments,
     candidates,
@@ -312,3 +312,4 @@ class HRModule(BaseERPModule):
                 "applied_position_id": applied_position_id
             })
             self._logger.info(f"Candidate created event published for {candidate_code}")
+

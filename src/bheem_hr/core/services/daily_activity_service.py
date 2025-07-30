@@ -54,3 +54,4 @@ class DailyActivityService:
         await self.db.commit()
         return True
 
+

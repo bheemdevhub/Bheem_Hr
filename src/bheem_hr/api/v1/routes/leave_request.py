@@ -130,3 +130,4 @@ async def reject_leave_request(
     service = HRService(db)
     return await service.reject_leave_request(leave_id, current_user_id, reason)
 
+

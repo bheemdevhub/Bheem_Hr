@@ -34,3 +34,4 @@ async def get_department_employees(department_id: int):
     """Get employees in department"""
     return {"message": f"Get department {department_id} employees endpoint - TODO: Implement"}
 
+

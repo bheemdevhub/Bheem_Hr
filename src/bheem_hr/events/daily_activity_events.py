@@ -27,3 +27,4 @@ class DailyActivityEventDispatcher:
         print(f"[EVENT] {event.event_type} for activity {event.activity_id} at {event.timestamp}")
         # Add more integrations as needed
 
+

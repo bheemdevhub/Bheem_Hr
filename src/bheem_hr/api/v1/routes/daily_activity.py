@@ -102,3 +102,4 @@ async def delete_daily_activity(
     dispatcher.dispatch(DailyActivityDeletedEvent(activity_id, {}))
     return None
 
+

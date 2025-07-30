@@ -29,3 +29,4 @@ class HRActionItemResponse(HRActionItemBase):
     class Config:
         from_attributes = True
 
+

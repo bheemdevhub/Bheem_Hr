@@ -93,3 +93,4 @@ async def get_primary_bank_account(person_id: str, db: AsyncSession = Depends(ge
         raise HTTPException(status_code=404, detail="No primary bank account found")
     return bank_account
 
+

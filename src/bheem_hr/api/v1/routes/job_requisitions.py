@@ -227,3 +227,4 @@ async def add_requisition_skills(
             detail=f"Error adding skills: {str(e)}"
         )
 
+

@@ -745,3 +745,4 @@ class HREventHandlers:
             logger.error(f"Error handling report log created event: {str(e)}")
             raise
 
+

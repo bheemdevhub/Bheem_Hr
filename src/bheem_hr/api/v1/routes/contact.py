@@ -328,3 +328,4 @@ async def search_contacts(
             detail=f"Error searching contacts: {str(e)}"
         )
 
+

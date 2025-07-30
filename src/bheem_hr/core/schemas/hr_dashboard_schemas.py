@@ -55,3 +55,4 @@ class HRNotificationsResponse(BaseModel):
     upcoming_contracts: int
     birthdays: List[str]
 
+

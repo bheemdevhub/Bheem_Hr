@@ -314,3 +314,4 @@ async def hire_candidate(candidate_id: str, db: AsyncSession = Depends(get_db)):
             detail=f"Error hiring candidate: {str(e)}"
         )
 
+

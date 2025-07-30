@@ -115,3 +115,4 @@ async def delete_salary_structure(
     await service.delete_salary_structure(structure_id)
     return {"detail": "Deleted"}
 
+
