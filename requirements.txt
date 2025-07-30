@@ -1,1 +1,1 @@
-# Add module-specific dependencies here
+-e ../../../Bheem_Core

@@ -1,0 +1,2 @@
+# HR Core package
+
