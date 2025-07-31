@@ -3,6 +3,7 @@ annotated-types==0.7.0
 anyio==3.7.1
 asyncpg==0.30.0
 bcrypt==4.3.0
+-e git+https://github.com/bheemdevhub/Bheem_Core.git@45cd5785a6cb3ef5f20b93898c792c727ef9e3bd#egg=bheem_core
 certifi==2025.7.14
 cffi==1.17.1
 click==8.2.1
