@@ -1,3 +1,0 @@
-# HR Events package
-
-

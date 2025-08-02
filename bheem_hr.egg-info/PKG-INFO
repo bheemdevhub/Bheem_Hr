@@ -1,9 +1,8 @@
 Metadata-Version: 2.4
 Name: bheem-hr
 Version: 1.0.0
-Summary: Bheem Hr ERP module
-Home-page: https://github.com/bheemverse/Bheem_Hr
-Author: Bheem Core Team
-Dynamic: author
-Dynamic: home-page
-Dynamic: summary
+Requires-Dist: fastapi>=0.100.0
+Requires-Dist: uvicorn[standard]>=0.22.0
+Requires-Dist: sqlalchemy>=2.0.0
+Requires-Dist: pydantic>=2.0.0
+Dynamic: requires-dist
